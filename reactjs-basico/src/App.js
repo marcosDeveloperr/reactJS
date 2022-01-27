@@ -1,3 +1,5 @@
+import Item from "./components/item";
+
 const App = () => {
   return(
     //nao permite trabalhar com elementos irmaos. 
@@ -15,12 +17,22 @@ const App = () => {
         <p>Melhor time do mundo é o Flamengo.</p>
       <h2>Lista de times favoritos</h2>
       <ul>
-        <li>Flamengo</li>
-        <li>Sport</li>
-        <li>Botafogo</li>
-        <li>Corinthians</li>
-      </ul>
+          <a href="/" className="list-group-item list-group-item-action list-group-item-dark">Flamengo</a>
+          <a href="/" className="list-group-item list-group-item-action list-group-item-dark">Sport</a>
+          <a href="/" className="list-group-item list-group-item-action list-group-item-dark">Botafogo</a>
+          <a href="/" className="list-group-item list-group-item-action list-group-item-dark">Corinthians</a>        
+      </ul>      
+   
+    {/*componentes vou replicar o codigo ...fica imenso. 
+     trabalhar com component . Na pasta components/item*/}
+
+     <ul>
+       <Item/>
+       <Item/>
+       <Item/>
+     </ul>
     </>
+
   )
 }
 
