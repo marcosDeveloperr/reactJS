@@ -27,9 +27,10 @@ const App = () => {
      trabalhar com component . Na pasta components/item*/}
 
      <ul>
-       <Item/>
-       <Item/>
-       <Item/>
+       <Item texto='Flamengo'/>
+       <Item texto='Sport'/>
+       <Item texto='Botafogo'/>
+       <Item texto='Corinthians'/>
      </ul>
     </>
 
